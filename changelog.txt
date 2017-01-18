@@ -1,0 +1,6 @@
+Modifications: 09-07-2008 by John Carlson from version 0.03 - 0.05
+
+updated complete file list to fix the security issue of the $MGR variable and other variables.
+converted all config variables to constants.
+fixed all variable issues that show up in logs as variables not set.
+Language fixes in some pages.

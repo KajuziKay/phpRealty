@@ -1,0 +1,50 @@
+INSTALL DOCUMENTATION FOR PHPREALTY
+##################################################
+
+Install instructions
+
+Method 1
+1. Download phprealty source file
+2. Unzip file to the directory where you will have phpRealty located
+3. chmod 777 the assets/images directory and the files located within
+4. Create a database and assign a user to the database. With phpMyAdmin 
+this is a sinch. :) Import the assets/phprealty.sql file into the 
+database.
+5. Open the manager/includes/config.inc.php file and edit the database 
+information section to match your database configuration. Most of the time 
+you will only need to edit the $database_server, $database_user, 
+$database_password and $dbase variables. Edit the WWW, REL, TEMPS, 
+WTEMPS and SITENAME variables.
+6. You can now go to your site where you have phpRealty such as 
+http://yourdomain.com/phprealty/ . You can now login with username: admin 
+password: phprealty. Once in the member area you can change the password.
+7. ENJOY and start adding listings.
+
+Method 2
+
+NOTE: this method shows you how to install the phpRealty Database,
+you still need to configure phpRealty as shown in step 5 of Method1
+
+1. Download phprealty source file
+2. Unzip file to the directory where you will have phpRealty located
+3. chmod 777 the assets/images directory and the files located within
+4. Open http://yourdomain.com/phprealty/installer/ in you browser and follow
+up the instructions to install your database.
+5. Open the manager/includes/config.inc.php file and edit 
+as shown in the 1st method.
+6. You can now go to your site where you have phpRealty installed. 
+You can now login with username: admin 
+password: phprealty. Once in the member area you can change the password.
+7. Once you've logged in and succesfully changed the admin password
+erase the installer directory from phprealty.
+8. ENJOY and start adding listings.
+
+NOTE: Method 2 guides you trugh the installation of the phpRealty Database.
+You still need to configure phpRealty as shown in step 5 of Method 1 !
+
+TEMPLATES
+
+You can create your own template by just changing the pages in the default 
+directory to reflect your new layout.
+You must leave in the <!-- --> sections of the code, like <!--listings--> 
+because they are what gets replaced with the dynamic content.
